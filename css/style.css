@@ -13,7 +13,8 @@ font-family: "Jersey 25", sans-serif;
     font-family: Arial, Helvetica, sans-serif
 }
 
-h1{
+/* /////////////////////////////H1 global////////////////////////////////////////// */
+h1 {
     font-family: "Jersey 25", sans-serif !important;
     color: white;
 }
@@ -31,6 +32,7 @@ nav {
     grid-template-areas:
         "logo links busqueda";
     padding: 10px;
+    margin-bottom: 30px;
 
 }
 
@@ -99,6 +101,11 @@ nav li a {
 
 }
 
+.dropdown-menu li a{
+    color: black;
+
+
+}
 
 /*///////////////////////// Inicio////////////////////////////////////// */
 .index-main {}
@@ -124,13 +131,24 @@ nav li a {
 
 /* ///////////////////////HEADERS//////////////////////////////////*/
 .headers h1 {
-    height: 120px;
-    padding-top: 60px;
+    height: 90px;
+    padding-top: 45px;
     color: white;
     background-image: url(https://i.redd.it/69e5cqczbrda1.png);
     text-align: center;
-    font-family: "Jersey 25", sans-serif ;
+    font-family: "Jersey 25", sans-serif;
 }
+
+/* header index-main con boostrap (piso valores) para que quede igual que los otros html sin boostrap*/
+.index-main .headers h1{
+    margin-bottom: 0px;
+    height: 135px;
+    font-size: 32px;
+    font-weight: bold;
+
+
+}
+
 
 
 /* ///////////////////////Productos//////////////////////////////////*/
@@ -161,7 +179,7 @@ nav li a {
     height: 280px;
 }
 
-.prod button{
+.prod button {
     background-color: aqua;
     font-family: "Jersey 25", sans-serif;
     font-size: medium;
@@ -169,7 +187,7 @@ nav li a {
     height: 30px;
     width: 100px;
     margin-top: 15px;
-    
+
 
 }
 
@@ -189,30 +207,29 @@ nav li a {
 /* Mobile last /// Max Width */
 
 @media (max-width: 915px) {
-    .nav{
+    .nav {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        "logo links"
-        "busqueda busqueda"
+            "logo links"
+            "busqueda busqueda"
         ;
 
     }
 
-   
+
 
 }
 
 @media (max-width: 715px) {
-    .nav{
+    .nav {
         grid-template-columns: 1fr;
         grid-template-areas:
-        "logo"
-        "links"
-        "busqueda"
+            "logo"
+            "links"
+            "busqueda"
         ;
 
     }
-           
+
 
 }
-
