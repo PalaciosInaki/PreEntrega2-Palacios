@@ -13,41 +13,76 @@
 </head>
 
 <body>
-    <!-- Menu de navegacion -->
-    <nav>
-        <!-- Imagen con ancla -->
-        <a href="./index.html">
-            <img src="./resources/logoFondoNegro.jpeg" alt="Multimarca">
-        </a>
-        <!-- Lista no ordenada (unordered list) -->
-        <ul>
+    <!-- Menu de navegacion con grids-->
+    <nav class="nav">
+
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./resources/logoFondoNegro.jpeg" alt="Multimarca">
+            </a>
+        </div>
+
+        <ul class="links">
             <!-- List item -->
             <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pages/productos.html">Productos</a></li>
             <li><a href="./pages/contacto.html">Contacto</a></li>
             <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/productos.html">Productos</a></li>
-            <li><a href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+
         </ul>
-    </nav>
 
+        <div class="busqueda">
+              <h6>Busqueda</h6>
+        </div>
+        
+        </nav>
 
+        <!-- Contenido Principal -->
+        <main class="index-main">
+            <h2>Ultimos Ingresos</h2>
+            <section class="ingresos">
+                <!-- CARDS DE INGRESOS -->
+                <div class="ing">
+                    <img src="https://dcdn.mitiendanube.com/stores/001/887/377/products/thinkbook-i5-gral-21-8e73c1e12e99d7261a16452117242113-1024-1024.jpg"
+                        alt="LENOVO">
+                    <h5>NOTEBOOK LENOVO THINKBOOK I5 1135G7</h5>
+                    <p>600 USD</p>
+                    <button>Leer Más</button>
+                </div>
 
-    <!-- Contenido Principal -->
-    <main class="main" id="inicio">
-        <h1>Inicio</h1>
-        <p>Somos una empresa fundada por un grupo de amigos, que desde chicos nos encontramos apasionados por el mundo de las computadoras, pasando su tiempo libre investigando y desarmando PC's domesticas. Con el pasar del tiempo y la facilidad de obtener informacion gracias al internet se fue construyendo esta sociedad que nos sigue uniendo. En Bamboo Pc nos dedicamos a la venta y armado de PCs a medida, especializados en equipos Gamers & Workstation. Contamos con un staff experto, liderados por sus socios fundadores, para brindar la mejor calidad y servicio al cliente. Ofrecemos alternativas de equipos customizados, de altos rendimientos y con el mejor asesoramiento; siempre con la premisa de que cada usuario reciba la propuesta que mejor se adapte a sus necesidades.</p>
+                <div class="ing">
+                    <img src="https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-12696624.jpg"
+                        alt="">
+                    <h5>WATERCOOLING 360MM COOLERMASTER </h5>
+                    <p>300 USD</p>
+                    <button>Leer Más</button>
 
-    </main>
+                </div>
 
+                <div class="ing">
+                    <img src="https://tunotebook.com.ar/wp-content/uploads/2022/10/1-3.jpg" alt="SSD">
+                    <h5>DISCO SSD M.2 SAMSUNG 980 PRO 2TB</h5>
+                    <p>150 USD</p>
+                    <button>Leer Más</button>
 
+                </div>
 
-    
-    <!-- Footer -->
-    <footer></footer>
+                <div class="ing">
+                    <img src="https://katech.com.ar/wp-content/uploads/CPU173-jpg.webp" alt="i9">
+                    <h5>Intel Core i9-12900K</h5>
+                    <p>600 USD</p>
+                    <button>Leer Más</button>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer></footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
