@@ -15,8 +15,6 @@ font-family: "Jersey 25", sans-serif;
 
 
 
-
-
 /* //////////////////////////////Navegacion ///////////////////////////////*/
 
 nav {
@@ -30,7 +28,7 @@ nav {
     grid-template-areas:
         "logo links busqueda";
     padding: 10px;
-    
+
 }
 
 .logo {
@@ -50,14 +48,14 @@ nav {
     /* Piso valores de bootstrap de padding y margin */
     padding-left: 0px;
     margin-bottom: 0px;
-    
+
 }
 
-.links li a{
+.links li a {
     font-family: "Jersey 25", sans-serif !important;
     font-size: 120%;
-    
-    
+
+
 }
 
 .busqueda {
@@ -66,19 +64,21 @@ nav {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
-.busqueda img{
+
+.busqueda img {
     height: 28px;
     width: 28px;
 }
-.busqueda button{
+
+.busqueda button {
     background-color: black;
     border-radius: 10px;
 }
 
 
- nav img {
+nav img {
     width: 300px;
     height: 180px;
     display: inline-block;
@@ -95,7 +95,7 @@ nav li a {
     font-weight: bold;
     color: white;
 
-} 
+}
 
 
 /*///////////////////////// Inicio////////////////////////////////////// */
