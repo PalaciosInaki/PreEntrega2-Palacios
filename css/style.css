@@ -293,7 +293,7 @@ nav li a {
 
 
 
-/* Apartir de esta medida se empieza a romper EN EL INDEX CON BOOTSRAP EN LAS OTRAS NO, pero no encuentro donde, que es lo que esta jodiendo */
+/* Apartir de esta medida se empieza a romper, pero no encuentro donde, que es lo que esta interfiriendo */
 @media (max-width: 440px) {
  
 
